@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'SevenSegment' ;
+  src: url('../assets/fonts/SevenSegment.ttf');
+}
+.Video{
+  position: fixed;
+  z-index: -1;
+  width:100%;
+}
