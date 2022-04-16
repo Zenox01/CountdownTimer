@@ -22,7 +22,7 @@ const Timer: React.FC<TimerProps> = ({ timer, speed, className }) => {
     let everySecond = setInterval(() => everySecondCB(), 1000 / speed);
 
     // if minutes === 0
-    // and seconds === 0 set red color
+    // and seconds === 20 set red color
     // and seconds === 0 set red color
     if (minutes === 0) {
       if (seconds === 20) {

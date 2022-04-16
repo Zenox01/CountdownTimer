@@ -56,7 +56,7 @@ export const Main = styled.main`
     font-family: 'SevenSegment';
     font-size: 10rem;
     padding: 0 1rem 1rem;
-    color: black;
+    
   }
 `;
 
