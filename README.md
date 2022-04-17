@@ -1,8 +1,9 @@
+## By: Zain Imdad
+# Cuddly Nest Assessment- React Countdown Timer. Visit below link for the deployed app on my Github:
+https://zenox01.github.io/CountdownTimer/
 
-# Countdown Timer React
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/367f5a71-27fb-4ac5-ba66-4966e8c1e96b/deploy-status)](https://countdown-timer-react.netlify.app/)
-
+## App passes all the Jest unit tests written for it. You can view the screenshots. Link below:
+![ Tests Screenshot ](Tests_Screnshot.png)
 ## Requirements
 
 - The user should be able to enter a # of minutes (positive integer) and click a “Start”
@@ -24,20 +25,14 @@ turn red.
 - Functionality should be appropriately divided into well-defined components.
 - The look of the countdown timer should have a production-ready clean/modern
 aesthetic. Creatively stylize the elements as you see fit.
+## EXTRA WORK/FEATURES IN APP:
+1. Reset Button, this countdown timer can be reset.
+2. The App has a Video Background
+3. Form onSubmit submission i.e  timer can be started by hitting 'Enter' key as well and the page will not reload.
+4. All State Mangement handled wtih UseReducer hook.
 
-## Project Screen Shots
-
-![ Main Screen ](/assets/images/countdown_timer.png)
-
-## Project Running
-
-![ Usability ](/assets/images/countdown_timer.gif)
-
-When the timer ends, just click on restart.
 
 ## Installation and Setup Instructions
-
-Clone down this repository. You will need `node` and `npm` or `yarn` installed globally on your machine.
 
 Installation:
 
@@ -50,8 +45,6 @@ To Run Test Suite:
 `npm test`
 or
 `yarn test`
-
-![ Tests Screenshot ](/assets/images/countdown_timer_tests.png)
 
 To Start Server:
 

@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { FiPause, FiSkipForward } from 'react-icons/fi';
 import { useTimer } from './useTimer';
 
-import Button from '../../components/Button';
+import Button from '../../Button';
 
 import { TimerContainer, TimerNumbers } from './styles';
 

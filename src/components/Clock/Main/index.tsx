@@ -2,10 +2,10 @@ import React, { useCallback } from 'react';
 import { FiPlay, FiClock, FiRotateCcw } from 'react-icons/fi';
 import ReactTooltip from 'react-tooltip';
 import { useControl } from './useControl';
-import VideoBG from "../../video/masthead-bg.mp4";
+import VideoBG from "../../../video/masthead-bg.mp4";
 import Timer from '../Timer';
-import Input from '../../components/Input';
-import Button from '../../components/Button';
+import Input from '../../InputField';
+import Button from '../../Button';
 
 import { Header, Main, SpeedButtons } from './Mainstyles';
 

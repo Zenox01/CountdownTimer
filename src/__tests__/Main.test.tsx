@@ -1,10 +1,11 @@
+//Test cases for the App.
 import React from 'react';
 import { render, waitFor, fireEvent, act } from '@testing-library/react';
 import Enzyme, { mount } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 
-import Main from '../domain/Main';
-import Timer from '../domain/Timer';
+import Main from '../components/Clock/Main';
+import Timer from '../components/Clock/Timer';
 
 Enzyme.configure({ adapter: new Adapter() });
 
