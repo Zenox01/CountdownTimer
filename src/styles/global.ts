@@ -5,7 +5,7 @@ export default createGlobalStyle`
     /**CSS vars */
     --bg-color: #696773;
     --font-color: #eff1f3;
-    --button-color: #009FB7;
+    --button-color: #25e193;
     --bg-contrast-error-color: #7FBB8F;
     --red-contrast-error-twenty: #870909;
 
