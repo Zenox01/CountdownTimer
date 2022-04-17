@@ -17,7 +17,7 @@ export const Container = styled.div`
       font-size: 1.5rem;
       font-weight: 700;
       text-align: center;
-      color: var(--bg-color);
+      color: #000000;
 
       width: 100%;
       padding: 0.5rem;

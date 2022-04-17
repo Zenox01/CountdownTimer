@@ -27,7 +27,7 @@ turn red.
 aesthetic. Creatively stylize the elements as you see fit.
 ## EXTRA WORK/FEATURES IN APP:
 1. Reset Button, this countdown timer can be reset.
-2. The App has a Video Background
+2. The App has a Responsive video background
 3. Form onSubmit submission i.e  timer can be started by hitting 'Enter' key as well and the page will not reload.
 4. All State Mangement handled wtih UseReducer hook.
 
