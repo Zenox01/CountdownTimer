@@ -14,6 +14,7 @@ const App: React.FC = () => {
   const { inputValue, timerSpeed, disabled, startTimer, error } = state;
 
   const handleStartTimer = useCallback((): void => {
+    
     const isNumber = inputValue.match(/^\d{1,2}$/);
 
     const onlyZeros = inputValue.match(/^0{1,2}$/);
@@ -51,7 +52,9 @@ const App: React.FC = () => {
       <Header>
         <FiClock className="logo" size={155} color="#000000" />
         <h1>Countdown Timer</h1>
-        <form>
+        <form onSubmit={(e) => {
+          e.preventDefault();
+          handleStartTimer()}}>
           {/** Component for getting user input */}
           <Input
             value={inputValue}
